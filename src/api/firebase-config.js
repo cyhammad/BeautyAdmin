@@ -11,12 +11,14 @@ import { getMessaging } from "firebase/messaging/sw";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCA1x52msGrW7yRrP33ww7HRqZfGsY1SJY",
-  authDomain: "beautyapp-f9b14.firebaseapp.com",
-  projectId: "beautyapp-f9b14",
-  storageBucket: "beautyapp-f9b14.appspot.com",
-  messagingSenderId: "351076444305",
-  appId: "1:351076444305:web:7a4696dcc7d48f5db3f730",
+  apiKey: "AIzaSyAMuv71tuqcGKDrIbp7LhFtTPaXYsAdzok",
+  authDomain: "fatimabeautyapp.firebaseapp.com",
+  databaseURL: "https://fatimabeautyapp-default-rtdb.firebaseio.com",
+  projectId: "fatimabeautyapp",
+  storageBucket: "fatimabeautyapp.appspot.com",
+  messagingSenderId: "530824876478",
+  appId: "1:530824876478:web:9689c4763d9230853469ef",
+  measurementId: "G-NGB0SVFQLZ"
 };
 /* const firebaseConfig = {
   apiKey: "AIzaSyAWkmK5lH5wWelBt9Eskkr-4pXZE_g0Kow",
